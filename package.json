@@ -1,0 +1,20 @@
+{
+  "name": "live-chat",
+  "version": "1.0.0",
+  "description": "A real-time live chat application using Node.js, Express, and Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "mongoose": "^5.10.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.9",
+    "express-session": "^1.17.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

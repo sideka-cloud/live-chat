@@ -1,0 +1,19 @@
+services:
+  live-chat-js:
+    image: sysopsid/live-chat:js
+    container_name: live-chat_js
+    ports:
+      - "3000:3000"
+    depends_on:
+      - live-chat-db
+    environment:
+      - MONGODB_URI=mongodb://live-chat-db:27017/livechat
+  live-chat-db:
+    image: sysopsid/live-chat:db
+    container_name: live-chat_db
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+volumes:
+  mongo-data:
