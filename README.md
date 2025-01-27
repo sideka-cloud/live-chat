@@ -1,5 +1,11 @@
-# live-chat
-Simple Live-Chat App with Node.js
+# Simple Live-Chat App with Node.js
+
+
+Clone repository
+```
+https://github.com/sideka-cloud/live-chat.git
+cd live-chat
+```
 
 Run and Build Container:
 `docker compose up -d`
