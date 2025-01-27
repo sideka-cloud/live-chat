@@ -5,7 +5,7 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - mongodb
+      - live-chat-db
     environment:
       - MONGODB_URI=mongodb://live-chat-db:27017/livechat
   live-chat-db:
