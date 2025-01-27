@@ -8,6 +8,13 @@ cd live-chat
 ```
 
 Run and Build Container:
-`docker compose up -d`
+```
+docker compose up -d
+```
 
-Access with url: `http://IP:3000`
+Access with url : `http://IP:3000`
+
+Remove container
+```
+docker compose down -v
+```
