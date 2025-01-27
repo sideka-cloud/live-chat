@@ -9,7 +9,7 @@ cd live-chat
 
 Run and Build Container:
 ```
-docker compose up -d
+docker compose up --build -d
 ```
 
 Access with url : `http://IP:3000`
